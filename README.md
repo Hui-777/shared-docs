@@ -4,18 +4,21 @@
 
 ## 当前文件
 
-| 文件 | 版本 | 最新版下载 |
+| 文件 | 版本 | 最新版下载（固定链接） |
 | --- | --- | --- |
-| 电机控制器客户需求确认表 | V2.2 | https://github.com/Hui-777/shared-docs/releases/latest/download/电机控制器客户需求确认表-V2.2.docx |
+| 电机控制器客户需求确认表 | V2.2 | https://github.com/Hui-777/shared-docs/releases/latest/download/motor-controller-requirements-V2.2.docx |
+
+仓库内同名中文副本：`files/电机控制器客户需求确认表-V2.2.docx`
 
 ## 以后怎么更新
 
-1. 把新的 `.docx` 放到本仓库 `files/` 目录（文件名建议仍用 `电机控制器客户需求确认表-V2.2.docx`，大改版可改成 V2.3）。
-2. 提交并推送到 `main`。
-3. 发一个新 Release（例如 `v2.3`），把同一个文件挂成 Release 资源。
+把新 Word 发给我，或者说一声「更新需求确认表」，我会：
 
-若希望「别人手里的旧链接永远指向最新文件」，发布时保持 Release 资源文件名与上表一致，并始终用：
+1. 替换 `files/` 里的文件  
+2. 发一个新 Release，资源文件名保持 `motor-controller-requirements-V2.2.docx`（大改版可改成 V2.3，并同步改 README 链接）
 
-`https://github.com/Hui-777/shared-docs/releases/latest/download/<文件名>`
+别人手里的最新版链接就可以继续用：
 
-也可直接把新文件发给我，让我帮你替换并发布。
+`https://github.com/Hui-777/shared-docs/releases/latest/download/motor-controller-requirements-V2.2.docx`
+
+说明：仓库是**公开**的，任何拿到链接的人都能下载，无需登录。若以后要改成「仅特定人可下」，再说一声我帮你改私有仓库 + 授权方式。
